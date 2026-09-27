@@ -167,16 +167,3 @@ Results are saved to `data/eval_results.json`, tracking:
 * **Automated Metric Shift Processing**: Computes pre-injection baseline versus post-injection spikes and drops, reducing token context usage while retaining telemetry signal quality.
 * **Microservice Name Normalization**: Automatically strips benchmark suite prefixes (e.g., `re2tt_`, `re1ob_`) while preserving microservice prefixes like `ts-` for TrainTicket microservices.
 * **Deterministic & Qualitative Evaluation**: Combines exact/token regex matching for root cause services with an LLM judge evaluating technical explanation quality and mitigation clarity.
-
-
-## 📚 Citation
-
-If you use this engine or the underlying RCAEval benchmark dataset in your research or project, please cite the benchmark paper as follows:
-
-```bibtex
-@inproceedings{pham2024rcaeval,
-  title     = {RCAEval: A Comprehensive Benchmark for Root Cause Analysis in Cloud-Native Microservices},
-  author    = {Pham, Luan and others},
-  booktitle = {Proceedings of the ACM/IEEE International Conference on Software Engineering (ICSE)},
-  year      = {2024}
-}
