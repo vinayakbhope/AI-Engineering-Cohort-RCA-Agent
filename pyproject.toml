@@ -1,0 +1,17 @@
+[project]
+name = "rca-agent"
+version = "0.1.0"
+description = "Multi-agent Root Cause Analysis pipeline"
+readme = "README.md"
+requires-python = ">=3.11,<3.14"
+dependencies = [
+    "crewai>=0.100.0",
+    "langchain-openai>=0.1.0",
+    "pydantic>=2.0.0",
+    "python-dotenv>=1.0.0",
+    "pandas>=2.0.0",
+    "pyarrow>=14.0.0",
+    "huggingface-hub>=0.20.0",
+    "requests>=2.31.0",
+    "lancedb<0.17.0"
+]
